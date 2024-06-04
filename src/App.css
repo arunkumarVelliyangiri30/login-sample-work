@@ -1,0 +1,54 @@
+
+
+.left-container {
+  background: linear-gradient(180deg, rgb(244, 194, 148) 0%, rgb(242, 127, 147) 100%);
+  background-color: transparent;
+  border-radius: 20px;
+  width: 50%;
+  float: left;
+  height: 95vh;
+  position: relative;
+}
+
+.top {
+ 
+  position: absolute;
+  top: 10%;
+  left: 8px;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  border-radius: 24.5px;
+  height: 49px;
+  width: 49px;
+}
+
+.slider-container {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 7%;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+li {
+  padding-left: 10px;
+}
